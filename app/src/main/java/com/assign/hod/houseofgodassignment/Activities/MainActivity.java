@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity  {
                 //mAdapter.notifyDataSetChanged();
 
                 if(Constant.pos==0) {
+
                     Constant.pos = pos;
                     mRecyclerView.getAdapter().notifyItemChanged(pos);
                 }else{
