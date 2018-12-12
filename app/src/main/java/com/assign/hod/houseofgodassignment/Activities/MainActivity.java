@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity  {
                 }else{
                     Constant.pos = pos;
                     mAdapter.notifyDataSetChanged();
+
                 }
 
             }
